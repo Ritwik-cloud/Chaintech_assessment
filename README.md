@@ -19,6 +19,23 @@ react-hot-toast for user-friendly toast notifications
 
 React Bootstrap for responsive UI components and styling
 
+
+
+How to Use:----
+
+Register:
+Users fill out the registration form with name, email, password, and phone number. Upon submission, a verification email is sent.
+
+Verify Email:
+Users must click the verification link in the email. The email contains a link that directs users to the login page for security confirmation.
+
+Login:
+After verifying their email, users log in using their credentials.
+
+Profile:
+Upon successful login, users are redirected to the profile page where they can view their email, edit their full name and phone number, save changes, or logout.
+
+
 Features:--
 
 Lazy Loading: All major pages (Register, Login, Profile) are lazy-loaded for faster initial load and better performance
@@ -35,19 +52,6 @@ Validation: All forms are validated on the client side with clear error handling
 
 Toast Notifications: Success and error messages are shown with react-hot-toast for enhanced user experience
 
-How to Use:----
-
-Register:
-Users fill out the registration form with name, email, password, and phone number. Upon submission, a verification email is sent.
-
-Verify Email:
-Users must click the verification link in the email. The email contains a link that directs users to the login page for security confirmation.
-
-Login:
-After verifying their email, users log in using their credentials.
-
-Profile:
-Upon successful login, users are redirected to the profile page where they can view their email, edit their full name and phone number, save changes, or logout.
 
 Project Structure:---
 src/auth/register — Registration page with form validation and Supabase signup
